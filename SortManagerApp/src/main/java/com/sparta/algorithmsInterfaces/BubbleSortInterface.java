@@ -1,4 +1,4 @@
-package com.sparta.algoInterfaces;
+package com.sparta.algorithmsInterfaces;
 
 public interface BubbleSortInterface {
 
