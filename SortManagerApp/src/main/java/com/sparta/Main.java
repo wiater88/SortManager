@@ -1,5 +1,6 @@
 package com.sparta;
 
+import com.sparta.Unility.PrintArray;
 import com.sparta.sortingAlgorithms.BubbleSort;
 
 public class Main {
@@ -10,7 +11,7 @@ public class Main {
 
         BubbleSort bs = new BubbleSort();
         int[] merged = bs.mergingTwoArrays(array1, array2);
-        bs.printArray(merged);
+        PrintArray.printArray(merged);
     }
 
 }

@@ -21,17 +21,14 @@ public class BubbleSort implements BubbleSortInterface {
         return arrayToSort;
     }
 
-    public int[] mergingTwoArrays (int[] array1, int[] array2){
+    public int[] mergingTwoArrays(int[] array1, int[] array2) {
         int arrayLength = array1.length + array2.length;
         int[] mergedArray = new int[arrayLength];
-        System.arraycopy(array1,0,mergedArray,0,array1.length);
-        System.arraycopy(array2,0,mergedArray,array1.length,array2.length);
+        System.arraycopy(array1, 0, mergedArray, 0, array1.length);
+        System.arraycopy(array2, 0, mergedArray, array1.length, array2.length);
         return sortArray(mergedArray);
     }
 
-    public void printArray(int[] array){
-        for (int j : array) {
-            System.out.print(j + " ");
-        }
-    }
+
 }
+
