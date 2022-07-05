@@ -2,12 +2,13 @@ package com.sparta;
 
 import com.sparta.Interfaces.Sorter;
 import com.sparta.sortingAlgorithms.MergeSort;
+import com.sparta.utility.RandomGenerator;
 import com.sparta.utility.Utility;
 import com.sparta.sortingAlgorithms.BubbleSort;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array1 = {5, 2, 1, 42, 555};
+     /*   int[] array1 = {5, 2, 1, 42, 555};
         int[] array2 = {42, 15, 6};
 
         int[] array3 = {5, 2, 1, 42, 555};
@@ -26,7 +27,13 @@ public class Main {
         sorter.sortArray(array4);
         int[] merged2 = Utility.mergingTwoArrays(array3,array4);
         sorter.sortArray(merged2);
-        Utility.printArray(merged2);
+        Utility.printArray(merged2);*/
+
+        RandomGenerator rd = new RandomGenerator();
+        int [] random10 = rd.randomArrayGenerator(10);
+
+        Utility.printArray(random10);
+
 
     }
 
