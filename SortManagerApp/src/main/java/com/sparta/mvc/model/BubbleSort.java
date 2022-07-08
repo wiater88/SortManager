@@ -1,6 +1,4 @@
-package com.sparta.sortingAlgorithms;
-
-import com.sparta.Interfaces.Sorter;
+package com.sparta.mvc.model;
 
 public class BubbleSort implements Sorter {
 

@@ -1,6 +1,4 @@
-package com.sparta.sortingAlgorithms;
-
-import com.sparta.Interfaces.Sorter;
+package com.sparta.mvc.model;
 
 public class MergeSort implements Sorter {
     @Override
@@ -48,7 +46,7 @@ public class MergeSort implements Sorter {
                 k = k+1;
             }
         }
-        // Recursively calling the function to divide the subarrays further
+        // Recursively calling the function to divide the sub-arrays further
         mergeSort(leftArray);
         mergeSort(rightArray);
         // Calling the merge method on each subdivision

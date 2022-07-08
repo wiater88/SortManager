@@ -1,17 +1,21 @@
 package com.sparta;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import com.sparta.logger.LoggerClass;
+import com.sparta.mvc.controller.SortManagerController;
+
 
 public class Main {
-    public static Logger logger = LogManager.getLogger("My Logger"); // load property file
+
     public static void main(String[] args) {
-        logger.info("First log");
-     Loader loader = new Loader();
-     loader.run();
+        LoggerClass.logTrace("Starting program");
+        SortManagerController.start();
+        System.exit(0);
+    }
+
 
 
     }
 
-}
+
 

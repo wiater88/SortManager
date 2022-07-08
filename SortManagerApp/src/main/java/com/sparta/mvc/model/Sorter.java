@@ -1,4 +1,4 @@
-package com.sparta.Interfaces;
+package com.sparta.mvc.model;
 
 public interface Sorter {
 
