@@ -5,6 +5,10 @@ import com.sparta.mvc.controller.SortManagerController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Class for use of Log4j
+ */
+
 
 public class LoggerClass {
 
