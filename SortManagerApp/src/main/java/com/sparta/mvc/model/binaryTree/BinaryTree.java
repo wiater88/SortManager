@@ -3,6 +3,10 @@ package com.sparta.mvc.model.binaryTree;
 
 import com.sparta.exceptions.ChildNotFoundException;
 
+/**
+ * Binary tree interface
+ */
+
 public interface BinaryTree {
 
     int getRootElement();

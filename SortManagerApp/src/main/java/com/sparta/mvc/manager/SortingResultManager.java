@@ -7,6 +7,10 @@ import com.sparta.mvc.model.Sorter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class responsible for main logic behind sorting
+ */
+
 public class SortingResultManager {
     private static final int NUMBER_OF_ALGORITHMS = 4;
 

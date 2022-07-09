@@ -9,6 +9,9 @@ import com.sparta.logger.LoggerClass;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Logic class selecting correct action base on user input
+ */
 public class InputManager {
 
     private static final int EXIT = 6;

@@ -5,6 +5,10 @@ import com.sparta.logger.LoggerClass;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Class responsible for displaying results
+ */
+
 public class DisplayManager {
 
     public static void displaySortingResults(SortingResultManager sortingResultManager){

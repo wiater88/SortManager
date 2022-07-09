@@ -1,5 +1,9 @@
 package com.sparta.mvc.utility;
 
+/**
+ * utility class
+ */
+
 public class Utility {
     public static void printArray(int[] array) {
         for (int j : array) {

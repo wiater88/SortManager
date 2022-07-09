@@ -3,6 +3,9 @@ package com.sparta.mvc.model;
 
 import com.sparta.mvc.model.binaryTree.BinaryTreeImplementation;
 
+/**
+ * Adapter design patter class for Binary Sort
+ */
 
 public class BinaryTreeSort implements Sorter{
 

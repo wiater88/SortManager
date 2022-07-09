@@ -7,6 +7,10 @@ import java.util.LinkedHashSet;
 import java.util.Random;
 import java.util.Set;
 
+/**
+ * Class responsible for creating and filling random array defined by user
+ */
+
 public class ArrayGenerator {
 
     public static int[] generatingRandomArray(int chosenArrayLength){

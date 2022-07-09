@@ -1,5 +1,9 @@
 package com.sparta.mvc.model;
 
+/***
+ * Class implementation of bubble sort algorithm
+ */
+
 public class BubbleSort implements Sorter {
 
 

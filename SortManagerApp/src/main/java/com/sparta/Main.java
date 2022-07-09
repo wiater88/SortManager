@@ -4,6 +4,9 @@ package com.sparta;
 import com.sparta.logger.LoggerClass;
 import com.sparta.mvc.controller.SortManagerController;
 
+/**
+ * Main starting point for application
+ */
 
 public class Main {
 
