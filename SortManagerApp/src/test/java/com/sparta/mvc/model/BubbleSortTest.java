@@ -1,4 +1,4 @@
-package com.sparta.sortingAlgorithms;
+package com.sparta.mvc.model;
 
 
 import com.sparta.mvc.model.BubbleSort;

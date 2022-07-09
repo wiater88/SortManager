@@ -22,7 +22,6 @@ public class SortingFactory {
             case 1 -> "Bubble Sort";
             case 2 -> "Merge Sort";
             case 3 -> "Binary Tree Sort";
-
             default -> "Quick Sort";
         };
     }

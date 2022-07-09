@@ -34,10 +34,10 @@
 - Log4j
 - MVC
 - Exceptions
-
+- Scanner
 
 ## Features
-List the ready features here:
+
 - Creating custom size array (maximum 1.000 elements) with random values (1-10.000)
 - Option to test performance of each individual algorithm or all algorithms at once 
 - CLI (command line user interface )

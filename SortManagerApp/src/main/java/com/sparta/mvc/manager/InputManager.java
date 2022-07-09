@@ -17,7 +17,7 @@ public class InputManager {
     private static final int EXIT = 6;
     public static final int MAX_ARRAY_SIZE = 1_000;
 
-    public static final int MAX_RANDOM_ELEMENT = 1_000;
+    public static final int MAX_RANDOM_ELEMENT = 10_000;
 
     public static int scanForChosenAlgorithm(){
 
