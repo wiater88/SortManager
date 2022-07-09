@@ -1,9 +1,9 @@
 package com.sparta.mvc.controller;
 
 import com.sparta.logger.LoggerClass;
-import com.sparta.mvc.controller.DisplayManager;
-import com.sparta.mvc.controller.InputManager;
-import com.sparta.mvc.controller.SortingResultManager;
+import com.sparta.mvc.manager.DisplayManager;
+import com.sparta.mvc.manager.InputManager;
+import com.sparta.mvc.manager.SortingResultManager;
 import com.sparta.mvc.model.ArrayGenerator;
 
 import java.util.List;
@@ -45,10 +45,11 @@ public class SortManagerController {
         } catch (IndexOutOfBoundsException e){
             LoggerClass.logError(e.getMessage());
         } catch (Exception e){
-            LoggerClass.logError(e.getMessage() + " caused by " + e.getCause());
+            LoggerClass.logError(e.getMessage());
             System.exit(1);
         }
         LoggerClass.logTrace("Exiting CLI");
+        System.out.println("Thanks for using Sorter App, hope to see you soon ");
     }
 
 }

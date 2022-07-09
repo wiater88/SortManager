@@ -1,13 +1,14 @@
-package com.sparta.mvc.controller;
+package com.sparta.mvc.manager;
 
 import com.sparta.logger.LoggerClass;
+import com.sparta.mvc.controller.SortingFactory;
 import com.sparta.mvc.model.Sorter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class SortingResultManager {
-    private static final int NUMBER_OF_ALGORITHMS = 3;
+    private static final int NUMBER_OF_ALGORITHMS = 4;
 
     private final String algorithmName;
     private final int[] originalArray;
