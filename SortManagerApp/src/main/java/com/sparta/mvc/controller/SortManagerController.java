@@ -8,13 +8,17 @@ import com.sparta.mvc.model.ArrayGenerator;
 
 import java.util.List;
 
+/**
+ * Class responsible for main logic / flow in the program
+ */
+
 public class SortManagerController {
     private final static int COMPARE_ALL_ALGORITHMS_PERFORMANCE = 5;
     private final static int EXIT_PROGRAM = 6;
 
     public static void start() {
 
-        LoggerClass.logTrace("Starting CLI");
+        LoggerClass.logTrace("Starting");
 
         int chosenAlgorithm;
         int chosenArrayLength;

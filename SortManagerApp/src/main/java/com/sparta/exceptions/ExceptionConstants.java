@@ -1,5 +1,9 @@
 package com.sparta.exceptions;
 
+/**
+ * List of exception messages used in the project
+ */
+
 
 public class ExceptionConstants {
     public static final String ARRAY_LENGTH_ZERO = "Array cannot be empty. Please enter an integer value greater than 0.";

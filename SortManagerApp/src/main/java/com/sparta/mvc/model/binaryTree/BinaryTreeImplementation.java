@@ -6,6 +6,10 @@ import com.sparta.exceptions.ExceptionConstants;
 
 import java.util.Objects;
 
+/**
+ * Class implementation on Binary Tree interface
+ */
+
 public class BinaryTreeImplementation implements BinaryTree {
 
         private static class Node {

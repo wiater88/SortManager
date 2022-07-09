@@ -1,5 +1,9 @@
 package com.sparta.mvc.model;
 
+/***
+ * Class implementation of Merge sort algorithm
+ */
+
 public class MergeSort implements Sorter {
     @Override
     public int[] sortArray(int[] arrayToSort) {

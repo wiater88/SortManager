@@ -1,5 +1,8 @@
 package com.sparta.mvc.model;
 
+/***
+ * Class implementation of Quick sort algorithm
+ */
 public class QuickSort implements Sorter {
     @Override
     public int[] sortArray(int[] arrayToSort) {

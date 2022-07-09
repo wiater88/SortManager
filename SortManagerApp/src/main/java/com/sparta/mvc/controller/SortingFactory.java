@@ -2,6 +2,10 @@ package com.sparta.mvc.controller;
 
 import com.sparta.mvc.model.*;
 
+/**
+ * Factory design patter class used to select algorithm chosen by user
+ */
+
 public class SortingFactory {
 
     public static Sorter getAlgoNumber(int algoNumber) {
