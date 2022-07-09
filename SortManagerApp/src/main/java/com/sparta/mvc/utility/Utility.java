@@ -1,4 +1,4 @@
-package com.sparta.mvc.model;
+package com.sparta.mvc.utility;
 
 public class Utility {
     public static void printArray(int[] array) {

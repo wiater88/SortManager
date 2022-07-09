@@ -1,4 +1,4 @@
-package com.sparta.mvc.controller;
+package com.sparta.mvc.manager;
 
 import com.sparta.exceptions.ChoiceOutOfBoundsException;
 import com.sparta.exceptions.ExceptionConstants;
@@ -14,7 +14,7 @@ public class InputManager {
     private static final int EXIT = 6;
     public static final int MAX_ARRAY_SIZE = 1_000;
 
-    public static final int MAX_RANDOM_ELEMENT = 10_000;
+    public static final int MAX_RANDOM_ELEMENT = 1_000;
 
     public static int scanForChosenAlgorithm(){
 
@@ -23,7 +23,7 @@ public class InputManager {
         Scanner scanner = new Scanner(System.in);
         int chosenAlgorithm;
         do {
-            //TODO Needs to be implemented
+
             DisplayManager.displayMessage
                     ("""
 
@@ -32,7 +32,7 @@ public class InputManager {
                              Sort Manager - Please select your desired sorting algorithm
                               1. Bubble Sort
                               2. Merge Sort
-                              3. Binary Sort\s
+                              3. Binary Tree Sort
                               4. Quick Sort
                               5. Display Algorithms' Compared Speeds
                               6. Exit Sort Manager
@@ -80,10 +80,10 @@ public class InputManager {
                 }else if(chosenArrayLength >= InputManager.MAX_ARRAY_SIZE) {
                     throw new InvalidArraySizeException(ExceptionConstants.ARRAY_LENGTH_BEYOND_LIMIT);
                 }
-            } catch (NegativeArraySizeException nase) {
+            } catch (NegativeArraySizeException e) {
                 chosenArrayLength = 0;
                 LoggerClass.logError(ExceptionConstants.ARRAY_LENGTH_NEGATIVE);
-            } catch (InputMismatchException ime) {
+            } catch (InputMismatchException e) {
                 chosenArrayLength = 0;
                 LoggerClass.logError(ExceptionConstants.NON_INTEGER_INPUT);
                 scanner.nextLine();

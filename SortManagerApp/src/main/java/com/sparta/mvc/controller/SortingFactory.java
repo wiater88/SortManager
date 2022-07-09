@@ -1,9 +1,6 @@
 package com.sparta.mvc.controller;
 
-import com.sparta.mvc.model.Sorter;
-import com.sparta.mvc.model.BubbleSort;
-import com.sparta.mvc.model.MergeSort;
-import com.sparta.mvc.model.QuickSort;
+import com.sparta.mvc.model.*;
 
 public class SortingFactory {
 
@@ -11,6 +8,7 @@ public class SortingFactory {
         return switch (algoNumber) {
             case 1 -> new BubbleSort();
             case 2 -> new MergeSort();
+            case 3 -> new BinaryTreeSort();
             default -> new QuickSort();
         };
     }
@@ -19,6 +17,8 @@ public class SortingFactory {
         return switch (algoNumber) {
             case 1 -> "Bubble Sort";
             case 2 -> "Merge Sort";
+            case 3 -> "Binary Tree Sort";
+
             default -> "Quick Sort";
         };
     }

@@ -1,7 +1,7 @@
 package com.sparta.mvc.model;
 
 import com.sparta.logger.LoggerClass;
-import com.sparta.mvc.controller.InputManager;
+import com.sparta.mvc.manager.InputManager;
 
 import java.util.LinkedHashSet;
 import java.util.Random;
